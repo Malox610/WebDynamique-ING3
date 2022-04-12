@@ -1,0 +1,32 @@
+header { background-color:#ffffff;
+    color:#140000;
+   /* text-align: center;*/
+   padding: 5px;
+}
+
+
+h1 { background-color:#ffffff;
+    color:#140000;
+     text-align: center;
+  /*  padding: 5px;*/
+}
+#nav {float: left ;
+     block-size: 150px;
+    width: 30% ;
+    line-height: 30px;
+    background-color:#000000;
+    color:#eeeeee;
+    /* text-align: center;*/
+   
+  
+}
+#section
+{ float: right ;
+    block-size: 150px;
+    width: 70% ;
+    line-height: auto;
+    background-color:#cccccc;
+    color:#eeeeee;
+    /* text-align: center;*/
+
+}

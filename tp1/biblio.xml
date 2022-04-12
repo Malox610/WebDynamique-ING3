@@ -1,0 +1,12 @@
+<nuages>
+    <nuage> 
+        <nom>
+            altocumulus
+                <espace>lenticularis</espace>
+                 <espace>stratiformis</espace>
+                  <espace>castelanus</espace>
+                   <espace>flocus</espace>
+        </nom>
+        <altitude max = "2000m" , min = "200m" />
+    </nuage>
+</nuages>
