@@ -1,0 +1,42 @@
+.logo img { height: 200px;
+    width: auto;
+
+    }
+#nav
+{
+    color:#336633;
+    font-size:1.90em;
+    float: left ;
+    
+   width: 50% ;
+   line-height: 30px;
+
+  
+}
+#div
+{
+
+    float: left ;
+    block-size: 50px;
+   width: 50% ;
+   line-height: 30px;
+
+}
+ul{ 
+    color:#336633;
+    float: right ;
+   
+   width: 50% ;
+   line-height: 30px;
+   font-size:1.20em;
+}
+
+
+.maison img { height: 50px;
+    width: auto;
+   
+    float: right ;
+  
+   font-size:1.20em;
+   background-color: aqua;
+    }

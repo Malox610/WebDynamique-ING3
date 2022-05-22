@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script type="text/javascript">
+        
+        function dollar(){
+        num1 = prompt("Combien d'argent avez vous ? ");
+        result_euro = num1 / 1.23;
+        result_pound = result_euro * 0.81;
+        result_yen= result_euro * 134.44;
+        alert(num1+" $ = "+ result_euro+" € ;       "+ result_pound+" £ ;       "+ result_yen+" Y ");
+        }
+
+
+        function euro(){
+            num1 = prompt("Combien d'argent avez vous ? ");
+        result_dollar = num1 * 1.23;
+        result_pound = num1 * 0.81;
+        result_yen= num1* 134.44;
+    alert(num1+" € = "+ result_dollar+" $ ;      "+ result_pound+" £ ;      "+ result_yen+" Y ");
+        }
+    
+        </script>
+    </head>
+
+<body>
+<h1>
+
+    <p>Veuillez choisir votre nationalite</p>
+</h1>
+
+<form>
+   <input type="button" onClick="dollar()" Value="Americain">
+<input type="button" onClick="euro()" Value="Europeen">
+
+<br><br>
+</form>
+</body>
+</html>

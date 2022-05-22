@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script type="text/javascript">
+        function multiplication(){
+        num1 = document.getElementById("firstNumber").value;
+        num2 = document.getElementById("SecondNumber").value;
+        result = num1 * num2;
+        document.getElementById("result").innerHTML = result;
+        document.getElementById("signe").innerHTML =num1+"*"+num2;
+        }
+        function division() {
+        num1 = document.getElementById("firstNumber").value;
+        num2 = document.getElementById("SecondNumber").value;
+        result = num1 / num2;
+        document.getElementById("result").innerHTML = result;
+        document.getElementById("signe").innerHTML =num1+"/"+num2;
+        }
+        function Ajouter(){
+            num1=Number(document.getElementById("firstNumber").value);
+            num2=Number(document.getElementById("SecondNumber").value);
+       
+        result = num1 + num2;
+        document.getElementById("result").innerHTML = result;
+        document.getElementById("signe").innerHTML = num1+"+"+num2;
+        }
+        function Soustraire(){
+        num1 = document.getElementById("firstNumber").value;
+        num2 = document.getElementById("SecondNumber").value;
+        result = num1 - num2;
+        document.getElementById("result").innerHTML = result;
+        document.getElementById("signe").innerHTML =num1+"-"+num2;
+        }
+        function cercle() {
+        var pi = 3.1416;
+        var rayon;
+        rayon = prompt("Quel est le rayon du cercle?");
+            alert("La superficie vaut " + pi * rayon * rayon);
+            alert("Le perimètre vaut " + 2 * pi * rayon);}
+        </script>
+    </head>
+
+<body>
+<h1>
+
+    <p>Calcul de base </p>
+</h1>
+
+<form>
+    1er Numero :<input type="text" id="firstNumber"><br><br>
+    2e   Numero :<input type="text" id="SecondNumber"><br><br>
+    <input type="button" onClick="Ajouter()" Value="Ajouter">
+<input type="button" onClick="Soustraire()" Value="Soustraire">
+<input type="button" onClick="multiplication()" Value="Multiplier">
+<input type="button" onClick="division()" Value="Diviser">
+<input type="button" onClick="cercle()" Value="Cercle">
+<br><br>
+<p>Le résultat est : <br> <span id="signe"></span> =
+    <span id="result"></span>
+    </p>
+</form>
+
+
+
+</body>
+</html>

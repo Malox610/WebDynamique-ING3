@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Jeu de morpion</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="morpion.css">
+    <script type="text/javascript" src="morpion.js"></script>
+</head>
+
+<body>
+
+<h1>Jeu de Morpion</h1>
+<div id="container">
+    <div id="gameGrid">
+    <div id="ligne1">
+    <input type="button" id="case11" class="case green" onclick="play(this)">
+    <input type="button" id="case12" class="case green" onclick="play(this)">
+    <input type="button" id="case13" class="case green" onclick="play(this)">
+    </div>
+    <div id="ligne2">
+    <input type="button" id="case21" class="case green" onclick="play(this)">
+    <input type="button" id="case22" class="case green" onclick="play(this)">
+    <input type="button" id="case23" class="case green" onclick="play(this)">
+    </div>
+    <div id="ligne3">
+    <input type="button" id="case31" class="case green" onclick="play(this)">
+    <input type="button" id="case32" class="case green" onclick="play(this)">
+    <input type="button" id="case33" class="case green" onclick="play(this)">
+    </div>
+    </div>
+    Web dynamique 2022
+Page | 2
+• Les scores sont affichés dans le bloc gameInfo. Un clic sur le bouton « Nouvelle partie »
+réinitialise le jeu et le jeu recommence.
+Correction :
+morpion.html
+<!DOCTYPE html>
+<html>
+<head>
+<title>Jeu de Morpion</title>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="morpion.css">
+<script type="text/javascript" src="morpion.js"></script>
+</head>
+<body>
+<h1>Jeu de Morpion</h1>
+<div id="container">
+<div id="gameGrid">
+<div id="ligne1">
+<input type="button" id="case11" class="case green" onclick="play(this)">
+<input type="button" id="case12" class="case green" onclick="play(this)">
+<input type="button" id="case13" class="case green" onclick="play(this)">
+</div>
+<div id="ligne2">
+<input type="button" id="case21" class="case green" onclick="play(this)">
+<input type="button" id="case22" class="case green" onclick="play(this)">
+<input type="button" id="case23" class="case green" onclick="play(this)">
+</div>
+<div id="ligne3">
+<input type="button" id="case31" class="case green" onclick="play(this)">
+<input type="button" id="case32" class="case green" onclick="play(this)">
+<input type="button" id="case33" class="case green" onclick="play(this)">
+</div>
+</div>
+<div id="gameInfo">
+<div id="info">
+Bonjour! Cliquez sur la grille pour jouer.
+</div>
+<div id="score">
+Bleu:<span id="scoreBleu">0</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Rouge:<span id="scoreRouge">0</span> <br>
+</div>
+<button id="reset" onclick="reloadGame()">Nouvelle Partie</button>
+</div>
+</div>
+</body>
+</html>
+
+
+
+
+
+</body>
+
+
+</html>

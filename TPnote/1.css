@@ -1,0 +1,26 @@
+.drap {
+    width  : 450px;
+  height : 250px;
+  background : rgb(0, 106, 255);
+  position: relative;
+ 
+}
+.ligne{
+
+    width  : 450px;
+    height : 35px;
+    background : rgb(255, 255, 0);
+    position: relative ;
+    top: -135px;
+}
+
+.ligne2{
+
+    width  : 35px;
+    height : 250px;
+    background : rgb(255, 255, 0);
+    position: relative;
+   top :-285px;
+   left: 125px;
+   
+}
